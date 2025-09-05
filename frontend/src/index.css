@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
+
+@layer base {
+  body {
+    font-family: "Jersey 15", sans-serif;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.outlined-text {
+  color: #c6e48b;               /* light green fill (tailwind's green-200) */
+  -webkit-text-stroke: 5px #4d7c0f; /* dark green border (tailwind's green-800) */
+  font-weight: 700;
+  paint-order: stroke fill;
+}
