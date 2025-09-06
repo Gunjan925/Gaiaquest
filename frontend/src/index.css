@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Jersey+10&family=Jersey+15&family=Gamja+Flower&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb&display=swap');
 
 @layer base {
   body {
@@ -10,9 +11,28 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .font-itim {
+    font-family: "Itim", cursive;
+  }
+  .font-gamja {
+    font-family: "Gamja Flower", cursive;
+  }
+  .font-jersey10 {
+    font-family: "Jersey 10", sans-serif;
+  }
+  .font-jersey15 {
+    font-family: "Jersey 15", sans-serif;
+  }
+  .font-inter {
+    font-family: "Inter", sans-serif;
+  }
+}
+
 .outlined-text {
-  color: #c6e48b;               /* light green fill (tailwind's green-200) */
-  -webkit-text-stroke: 5px #4d7c0f; /* dark green border (tailwind's green-800) */
+  color: #D9ED92;               /* light green fill (tailwind's green-200) */
+  -webkit-text-stroke: 5px #6B8E23; /* dark green border (tailwind's green-800) */
   font-weight: 700;
   paint-order: stroke fill;
 }
+

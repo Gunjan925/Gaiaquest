@@ -15,13 +15,17 @@ function Profile() {
         <div className="flex gap-4">
           <Link
             to="/"
-            className="bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700 transition text-xl"
+            className="bg-[#D9ED92] text-[#6B8E23] px-4 py-1 rounded-md 
+                    hover:bg-[#6B8E23] hover:text-[#D9ED92] transition font-jersey 
+                    text-2xl tracking-wide"
           >
             Home
           </Link>
           <Link
             to="/logout"
-            className="bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700 transition text-xl"
+            className="bg-[#D9ED92] text-[#6B8E23] px-4 py-1 rounded-md 
+                    hover:bg-[#6B8E23] hover:text-[#D9ED92] transition font-jersey 
+                    text-2xl tracking-wide"
           >
             Logout
           </Link>
@@ -36,7 +40,7 @@ function Profile() {
             <span className="text-6xl text-gray-400">👤</span>
           </div>
 
-          <h2 className="mt-4 font-bold text-teal-600 text-4xl">Name</h2>
+          <h2 className="mt-4 font-bold text-[#6B8E23] text-4xl">Name</h2>
           <p className="text-gray-500 text-2xl">@Username</p>
           <p className="text-gray-600 text-xl">1 follower • 1 following</p>
 
@@ -61,9 +65,11 @@ function Profile() {
 
         <div className="w-2/3 bg-[#90D1D3] p-6 rounded-r-2xl">
           <div className="flex justify-end">
-            <button className="bg-teal-600 text-white px-4 py-1 rounded-md hover:bg-teal-700 transition">
+            <Link 
+            to={"/leaderboard"}
+            className="bg-[#049BA9] text-[#ffffff] px-4 py-1 rounded-md hover:bg-teal-700 transition text-xl">
               VIEW LEADERBOARD
-            </button>
+            </Link>
           </div>
 
           <h3 className="text-2xl mb-4">My Stats</h3>

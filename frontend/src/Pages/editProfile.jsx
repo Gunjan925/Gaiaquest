@@ -14,10 +14,14 @@ function EditProfile() {
         <div className="flex gap-4">
           <Link
           to={"/"}
-          className="bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700 transition text-2xl">
+          className="bg-[#D9ED92] text-[#6B8E23] px-4 py-1 rounded-md 
+                    hover:bg-[#6B8E23] hover:text-[#D9ED92] transition font-jersey 
+                    text-2xl tracking-wide">
             Home
           </Link>
-          <button className="bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700 transition text-2xl">
+          <button className="bg-[#D9ED92] text-[#6B8E23] px-4 py-1 rounded-md 
+                    hover:bg-[#6B8E23] hover:text-[#D9ED92] transition font-jersey 
+                    text-2xl tracking-wide">
             Logout
           </button>
         </div>

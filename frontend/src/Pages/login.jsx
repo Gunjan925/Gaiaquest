@@ -14,8 +14,8 @@ function Login() {
         </h1>
         <Link
         to="/signup"
-        className="bg-teal-600 text-white px-4 py-1 rounded-md 
-                    hover:bg-teal-700 transition font-jersey 
+        className="bg-[#D9ED92] text-[#6B8E23] px-4 py-1 rounded-md 
+                    hover:bg-[#6B8E23] hover:text-[#D9ED92] transition font-jersey 
                     text-2xl tracking-wide"
         >
         Sign Up
@@ -43,7 +43,7 @@ function Login() {
             />
           </div>
 
-          <h2 className="text-xl font-bold text-teal-700 mb-6 font-jersey tracking-wide">
+          <h2 className="text-2xl font-bold text-[#6B8E23] mb-6 font-jersey tracking-wide">
             Welcome back!
           </h2>
 
@@ -60,7 +60,7 @@ function Login() {
             />
             <button
               type="submit"
-              className="w-full bg-teal-400 text-white font-bold py-2 rounded-md hover:bg-teal-500 transition mt-2 font-jersey tracking-[0.1em] text-2xl"
+              className="w-full bg-[#9BD0D1] text-white font-bold py-2 rounded-md hover:bg-teal-500 transition mt-2 font-jersey tracking-[0.1em] text-2xl"
             >
               Login
             </button>

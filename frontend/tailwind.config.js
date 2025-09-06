@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         jersey: ['"Jersey 15"', "sans-serif"],
+        cherry: ['"Cherry Bomb"', 'cursive'],
       },
     },
   },
